@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
+
 }
 
 // Headings
@@ -16,6 +17,7 @@ h2,
 h3 {
     margin:0;
     font-weight: 400;
+
     &.lg-heading {
         font-size:6rem;
     }
@@ -25,6 +27,7 @@ h3 {
         padding: 0.2rem 1rem;
         background: rgba(lighten($primary-color, 2),0.5);
     }
+}
 
 a {
     color: #fff;
@@ -41,6 +44,13 @@ header {
     color: $secondary-color;
 }
 
+main {
+    padding: 4rem;
+    height: 100%;
 
-
+    .icons {
+        margin-top: 1rem;
+        
+    }
 }
+
