@@ -1,11 +1,13 @@
 @import 'config';
+@import 'menu';
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    @include background();
+
+    @include background;
     background: $primary-color;
     color: #fff;
     height: 100%;
@@ -60,7 +62,7 @@ main {
 
             &:hover {
                 color: $secondary-color;
-                @include easeOut();
+                @include easeOut;
             }
         }
         
